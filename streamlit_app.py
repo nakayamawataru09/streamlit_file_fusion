@@ -4,7 +4,7 @@ from PIL import Image
 import io
 
 # アプリのタイトル
-st.title('PDFと画像ファイルの結合アプリ')
+st.title('PDFと画像ファイルを結合しますよ')
 
 # ファイルアップロード機能
 uploaded_files = st.file_uploader("PDF、PNG、JPGファイルをアップロードしてください", type=["pdf", "png", "jpg"], accept_multiple_files=True)
